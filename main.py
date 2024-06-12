@@ -17,7 +17,7 @@ class ship_recognition_classifier():
     def __init__(self):
         selected_input = input("select input type 1-image 2-video 3-webcam: ")
         if selected_input == "1": self.get_img()
-        elif selected_input == "2": self.get_img()
+        elif selected_input == "2": self.get_vid()
         elif selected_input == "3": self.webcam()
         else: self.__init__() #looping
 
