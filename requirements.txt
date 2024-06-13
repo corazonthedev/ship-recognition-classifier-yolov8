@@ -3,3 +3,4 @@ numpy
 supervision
 opencv-python
 tkinter
+inference
